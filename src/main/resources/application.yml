@@ -1,0 +1,10 @@
+
+spring:
+  # 开发阶段关闭thymeleaf的模板缓存
+  spring:
+    thymeleaf:
+      cache: false
+  datasource:
+    url: jdbc:mysql://192.168.1.18:3306/day01
+    username: root
+    password: 123456
